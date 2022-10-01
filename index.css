@@ -1,0 +1,57 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color:lightgray;
+    padding: 15px;
+    color:black;
+    display:flex;
+    justify-content:space-between;
+}
+
+.navbar h1 {
+    font-size:2.5rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color:brown;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color:blue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+button {
+    border-radius: 5px;
+}
+
+#callout {
+    color:blue;
+}
+
